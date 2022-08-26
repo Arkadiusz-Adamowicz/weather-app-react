@@ -1,0 +1,32 @@
+{
+  "coord": { "lon": 16.8822, "lat": 51.0732 },
+  "weather": [
+    { "id": 741, "main": "Fog", "description": "fog", "icon": "50d" }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 291.74,
+    "feels_like": 292.08,
+    "temp_min": 290.09,
+    "temp_max": 294.76,
+    "pressure": 1015,
+    "humidity": 93
+  },
+  "visibility": 200,
+  "wind": { "speed": 0.51, "deg": 0 },
+  "clouds": { "all": 100 },
+  "dt": 1661488900,
+  "sys": {
+    "type": 2,
+    "id": 2006601,
+    "country": "PL",
+    "sunrise": 1661486174,
+    "sunset": 1661536373
+  },
+  "timezone": 7200,
+  "id": 3085357,
+  "name": "Smolec",
+  "cod": 200
+}
+
+
