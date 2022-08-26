@@ -27,7 +27,7 @@ function App() {
         />
       </div>
       <div className="container">
-        <div className="top">
+        <div className={data.name ? 'top top-bg' : 'top'}>
           <div className="location">
             <p>{data.name}</p>
           </div>
@@ -38,6 +38,8 @@ function App() {
             {data.weather ? <p>{data.weather[0].main}</p> : null}
           </div>
         </div>
+
+
         {data.name !== undefined && (
           <div className="bottom">
             <div className="feels">
